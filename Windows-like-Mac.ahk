@@ -67,6 +67,21 @@ Return
 send, ^r
 Return
 
+;
+!d::
+send, ^d
+Return
+
+;
+!Backspace::
+send, ^{Backspace}
+Return
+
+;
+!/::
+send, ^/
+Return
+
 ; Arrows
 
 !Left::
