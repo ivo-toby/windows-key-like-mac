@@ -73,8 +73,8 @@ send, ^d
 Return
 
 ;
-!Backspace::
-send, ^{Backspace}
+!backspace::
+send, ^{backspace}
 Return
 
 ;
@@ -122,4 +122,3 @@ Return
 +!Down::
 send, +{End}
 Return
-
