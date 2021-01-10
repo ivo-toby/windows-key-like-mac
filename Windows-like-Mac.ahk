@@ -94,6 +94,16 @@ send, ^{Right}
 Return
 
 ;
+#Left::
+send, ^{Left}
+Return
+
+;
+#Right::
+send, ^{Right}
+Return
+
+;
 +!Left::
 send, +^{Left}
 Return

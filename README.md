@@ -26,10 +26,16 @@ alt-/ = create commented line
 alt-backspace = delete last word
 alt-Left (left arrow key) = back one word (ctrl-Left)
 alt-Right (right arrow key) = forward one word (ctrl-Right)
+windows-Left = (left arrow key) = back one word (ctrl-Left)
+windows-right = (right arrow key) = forward one word (ctrl-right)
 alt-Shift-Left (shift+left arrow key) = select one word back (shift-ctrl-Left)
 alt-Shift-Right (shift+right arrow key) = select one word forward (shift-ctrl-Left)
+windows-Shift-Left (shift+left arrow key) = select one word back (shift-ctrl-Left)
+windows-Shift-Right (shift+right arrow key) = select one word forward (shift-ctrl-Left)
 alt-Up (up arrow key) = Home (start of line)
 alt-Down (down arrow key) = End (end of line)
-alt-Shift-Up (shift up arrow key) = Select up to Home (start of line)
-alt-Shift-Down (shift down arrow key) = Select down to End (end of line)
+alt-Shift-Up (shift up arrow key) = Select up to same point one line above (start of line)
+alt-Shift-Down (shift down arrow key) = Select down to same point one line below (end of line)
+windows-Shift-Up (shift up arrow key) = Select up to same point one line above (start of line)
+windows-Shift-Down (shift down arrow key) = Select down to same point one line below (end of line)
 ```
