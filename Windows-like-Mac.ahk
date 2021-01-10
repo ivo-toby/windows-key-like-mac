@@ -104,6 +104,16 @@ send, +^{Right}
 Return
 
 ;
++!Up::
+send, +^{Up}
+Return
+
+;
++!Down::
+send, +^{Down}
+Return
+
+;
 !Up::
 send, {Home}
 Return
@@ -114,11 +124,21 @@ send, {End}
 Return
 
 ;
-+!Up::
-send, +{Home}
+#+Left::
+send, +^{Left}
 Return
 
 ;
-+!Down::
-send, +{End}
+#+Right::
+send, +^{Right}
+Return
+
+;
+#+Up::
+send, +^{Up}
+Return
+
+;
+#+Down::
+send, +^{Down}
 Return
